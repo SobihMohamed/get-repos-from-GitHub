@@ -1,0 +1,89 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: linear-gradient(45deg, #0f0c29, #492b63, #824e1e, #ff5f6d);
+    min-height: 100vh;
+    width: 100vw;
+    background-position: bottom left;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10px 0;
+}
+
+.container{
+    margin: auto;
+    width: 800px;
+    padding: 10px;
+    background-color: #a79e9e;
+    border-radius: 10px;
+    border: 2px solid violet ;
+}
+
+.container .getRepo{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .getRepo input{
+    padding: 13px;
+    width: 80%;
+    border-radius: 10px;
+    font-size: 20px;
+    height: 53px;
+    line-height: 53px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    color: #f6861e;
+    background-color: #492b63;
+}
+.container .getRepo input:focus{
+    border: 3px solid #f6861e;
+}
+.container .getRepo .but-GitRepo{
+    background-color: #f6861e;
+    padding: 0 15px;
+    height: 53px;
+    line-height: 53px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px wheat;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+
+}
+.container .Data-Show{
+    padding:10px 25px;
+    margin: auto;
+    width: 90%;
+    background-color: rgba(128, 128, 128, 0.729);
+    border-radius: 10px; 
+    font-size: 18px;
+    font-weight: 700;
+}
+.Data-Show .maindiv:not(:last-child){
+    margin-bottom: 10px;
+}
+.Data-Show .maindiv{
+    background-color: #fefefe;
+    padding: 12px 8px;
+    border-radius: 10px;
+    border:  2px dotted #f6861e;
+    color: #0f0c29;
+    font-weight: 500;
+}
+.Data-Show .maindiv h3{
+    color: rgb(153, 25, 25);
+}
+.Data-Show .maindiv a{
+    text-decoration: none;
+    color: #057b93;
+
+}
